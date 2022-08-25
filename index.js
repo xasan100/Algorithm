@@ -30,10 +30,29 @@
 
 //  console.log(solution('world'));
 
-function billboard(name, price = 30) {
+// function billboard(name, price = 30) {
     
-return name.split('').map((value,ind)=>ind)
+// return name.split('').length*30
 
-} 
+// } 
 
-console.log(billboard("Jeong-Ho Aristotelis")); 
+// console.log(billboard("Jeong-Ho Aristotelis"));
+
+// function digitize(n) {
+//    b = n+' '
+//  a=b.split('').sort((a, b) => b - a).map(Number)
+//  return a
+
+// }
+
+// console.log(digitize(1234)); 
+
+function makeNegative(num) {
+    
+if (num ==9) {
+    return num
+}
+else if (num)   
+return -num
+}
+console.log(makeNegative(9));
