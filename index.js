@@ -31,7 +31,7 @@
 //  console.log(solution('world'));
 
 // function billboard(name, price = 30) {
-    
+
 // return name.split('').length*30
 
 // } 
@@ -47,12 +47,48 @@
 
 // console.log(digitize(1234)); 
 
-function makeNegative(num) {
-    
-if (num ==9) {
-    return num
-}
-else if (num)   
-return -num
-}
-console.log(makeNegative(9));
+// function makeNegative(num) {
+
+// if (num ==9) {
+//     return num
+// }
+// else if (num)   
+// return -num
+// }
+// console.log(makeNegative(9));
+
+// const boolToWord = (bool) => bool  ? "Yes" : "False"
+
+// function positiveSum(arr) {
+
+// b= arr.filter((val)=>val >=0)
+// return b.reduce((prev,ind)=>prev+ind,0)
+// }
+// console.log(positiveSum([-1, -2, 3, 4, -5]));
+
+
+// function getCount(str) {
+
+//    return  str.match(/['a','e','i','o','u']/gi)
+
+
+
+// }
+// console.log(getCount('This website is for losers LOL!'));
+//     
+
+// function squareDigits(num) {
+//    b=num+''
+  
+//     return b.split('').map((val)=>+val.Math.pow(val,2))
+ 
+// }
+// console.log(squareDigits(3212));
+
+
+
+// function name(num) {
+//   b=num+''   
+// return b.split(' ').map((val,ind,arr)=>ind)
+// }
+// console.log(name(10));
