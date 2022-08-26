@@ -79,9 +79,9 @@
 
 // function squareDigits(num) {
 //    b=num+''
-  
+
 //     return b.split('').map((val)=>+val.Math.pow(val,2))
- 
+
 // }
 // console.log(squareDigits(3212));
 
@@ -92,3 +92,33 @@
 // return b.split(' ').map((val,ind,arr)=>ind)
 // }
 // console.log(name(10));
+
+// function highAndLow(numbers) {
+//  s= numbers.split(' ')
+//   max = Math.max(...s)
+//     min = Math.min(...s)
+
+// return `'${max} ${min}'`
+// }
+// console.log(highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"));
+
+
+// function getMiddle(s) {
+//  b= s.split('').length /2 
+//   return  a =  Math.ceil(b)
+// }
+// console.log(getMiddle("testing"));
+
+// function filter_list(l) {
+//     return l.filter(Number.isInteger)
+
+// }
+// console.log(filter_list([1, 2, 'aasf', 0, '123', 123]));
+
+
+// function name(str) {
+//     return str.replace(/[^0-9]/g,"")
+// }
+
+
+// console.log(name('Web5Brain aca123de my2'));
