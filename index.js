@@ -122,3 +122,18 @@
 
 
 // console.log(name('Web5Brain aca123de my2'));
+
+// const  Students=function (callback){
+//  new Promise ((resolve)=>{
+//      setTimeout(() => {
+//          resolve('1-qadam')
+//      }, 1000);
+//  })
+// .then(console.log)
+// setTimeout(callback,1000);
+// console.log('2-qadam');
+// }
+// const addStudent =function () {
+//     console.log('3-qadam');
+// }
+// Students(addStudent);
