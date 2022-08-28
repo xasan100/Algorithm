@@ -177,3 +177,11 @@
 // Test.assertEquals(validatePIN("000000"), true, "Wrong output for '000000'");
 // Test.assertEquals(validatePIN("123456"), true, "Wrong output for '123456'");
 // Test.assertEquals(validatePIN("090909"), true, "Wrong output for '090909'");
+// 8 kyu
+// Convert number to reversed array of digits
+// JavaScript:
+function digitize(n) {
+    b = String(n).split("").reverse().map(Number);
+    return b
+
+}
