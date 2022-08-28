@@ -20,7 +20,7 @@
 // }
 // console.log(number([1,2,4,5,12,2,21,1,324,'',34]));
 
-// function solution(str){
+// function solution(p){
 //  b = str.split('')
 //  return  b.reverse().join('')
 // }
@@ -137,3 +137,43 @@
 //     console.log('3-qadam');
 // }
 // Students(addStudent);
+// function one(p) {
+
+//   for (let i = 0; i < p.length; i++) {
+      
+//     if(p[i] === "A" || p[i] === "a" || p[i] === "E" || p[i] === "e" || p[i] === "I" || p[i] === "i" || p[i] === "O" || p[i] === "o" || p[i] === "U" || p[i] === "u");{
+//     }
+//   }
+
+
+
+// }
+
+// console.log(one("This website is for losers LOL!"));
+
+
+
+// assert.strictEqual(disemvowel("This website is for losers LOL!"), "Ths wbst s fr lsrs LL!")
+// assert.strictEqual(disemvowel("No offense but,\nYour writing is among the worst I've ever read"), "N ffns bt,\nYr wrtng s mng th wrst 'v vr rd")
+// assert.strictEqual(disemvowel("What are you, a communist?"), "Wht r y,  cmmnst?")
+
+// function validatePIN(pin) {
+
+//     if (pin.length ==4) {
+//         return true
+//     }
+//     else if (pin.length==6){
+//         return true
+//     } 
+//     else  return false
+// }
+// console.log(validatePIN("-fd1.234"));
+
+// Test.assertEquals(validatePIN("1234"), true, "Wrong output for '1234'");
+// Test.assertEquals(validatePIN("0000"), true, "Wrong output for '0000'");
+// Test.assertEquals(validatePIN("1111"), true, "Wrong output for '1111'");
+// Test.assertEquals(validatePIN("123456"), true, "Wrong output for '123456'");
+// Test.assertEquals(validatePIN("098765"), true, "Wrong output for '098765'");
+// Test.assertEquals(validatePIN("000000"), true, "Wrong output for '000000'");
+// Test.assertEquals(validatePIN("123456"), true, "Wrong output for '123456'");
+// Test.assertEquals(validatePIN("090909"), true, "Wrong output for '090909'");
