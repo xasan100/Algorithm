@@ -191,9 +191,9 @@
 // JavaScript:
 
 // const solution = (str) => str.split('').reverse().join('') 
-8 kyu
-Is the string uppercase ?
-    JavaScript :
-    String.prototype.isUpperCase = function () {
-        return this.toString() === this.toUpperCase()
-    }
+// 8 kyu
+// Is the string uppercase ?
+//     JavaScript :
+//     String.prototype.isUpperCase = function () {
+//         return this.toString() === this.toUpperCase()
+//     }
