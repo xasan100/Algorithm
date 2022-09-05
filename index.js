@@ -180,8 +180,14 @@
 // 8 kyu
 // Convert number to reversed array of digits
 // JavaScript:
-function digitize(n) {
-    b = String(n).split("").reverse().map(Number);
-    return b
+// function digitize(n) {
+//     b = String(n).split("").reverse().map(Number);
+//     return b
 
-}
+// }
+
+// 8 kyu
+// Reversed Strings
+// JavaScript:
+
+// const solution = (str) => str.split('').reverse().join('') 
