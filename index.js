@@ -206,7 +206,7 @@
 
 // console.log(str(10));
 
-8 kyu
-Convert boolean values to strings 'Yes' or 'No'.
-JavaScript:
-const boolToWord = ( bool )=> bool  ? "Yes":"No"
+// 8 kyu
+// Convert boolean values to strings 'Yes' or 'No'.
+// JavaScript:
+// const boolToWord = ( bool )=> bool  ? "Yes":"No"
