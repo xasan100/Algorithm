@@ -221,4 +221,18 @@
 //   }
   
 //   return vowelsCount;
+
 // }
+
+
+// var removeDuplicates = function (nums) {
+
+// };
+
+// console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));
+
+// var addBinary = function (a, b) {
+//     b= a.toString(2)
+//     return b
+// };
+// console.log(addBinary("1010", "1010"));
